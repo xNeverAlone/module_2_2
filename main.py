@@ -1,9 +1,9 @@
 first = int(input("Vvedite chislo: "))
 second = int(input("Vvedite chislo: "))
 third = int(input("Vvedite chislo: "))
-if first != second != third:
-    print(0)
-if first == second and third:
+if first == second and first == third:
     print(3)
-if first == second or third:
+elif first == second or first == third or second == third:
     print(2)
+else:
+    print(0)
